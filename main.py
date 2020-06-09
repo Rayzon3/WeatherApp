@@ -6,7 +6,7 @@ from pprint import pprint
 def find_city_weather():
     city = input('Enter your city : ')
 
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid=367ea05724d7bf144fbe241af16b61cc&units=metric'.format(city)
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid= [SORRY CANT SHOW MY KEY] &units=metric'.format(city)
 
     res = requests.get(url)
 
